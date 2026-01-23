@@ -1,16 +1,15 @@
 ## Overview
-This project analyzes NFL fantasy football performance data from the 2024 regular season and evaluates how well data-driven projections from 2024 predict actual player performance during the 2025 season. Using historical usage and efficiency metrics, I built predictive fantasy point estimates and compared them against real 2025 results to assess model accuracy. The project demonstrates an end-to-end sports analytics workflow, combining data modeling, exploratory analysis, and performance evaluation using Power BI.
+This project analyzes NFL fantasy football performance data across the 2024 and 2025 regular seasons to identify year over year trends in player usage, efficiency, and production. Using multi-season fantasy and opportunity metrics, I built an interactive Power BI dashboard to compare player performance across seasons and explore what these patterns suggest for 2026 expectations. Rather than producing deterministic predictions, the project emphasizes trend-based analysis and forward-looking insights grounded in historical performance.
 
 ## Final Project
 (final project will be uploaded page by page when project is completed)
 
 ## Objectives
-- Analyze NFL fantasy performance using 2024 season data
-- Engineer fantasy scoring and usage-based metrics
-= Build fantasy point projections from historical performance
-= Compare 2024-based projections to actual 2025 season results
-= Evaluate prediction accuracy and identify over- and under-performing players
-= Create an interactive Power BI dashboard for exploration and comparison
+- Analyze NFL fantasy football performance across the 2024 and 2025 seasons
+- Engineer usage and efficiency-based metrics to support year-over-year comparison
+- Identify stable performers, breakout candidates, and regression risks
+- Examine how changes in usage and efficiency impact fantasy production
+- Create an interactive Power BI dashboard to explore trends and infer 2026 outlooks
 
 ## Tools
 - Power BI for data modeling, DAX measures, and visualization
@@ -18,26 +17,27 @@ This project analyzes NFL fantasy football performance data from the 2024 regula
 - Git/GitHub for version control and documentation
 
 ## Methodology
-- Loaded and cleaned position-specific NFL datasets (QB, RB, WR)
+- Loaded and cleaned position-specific NFL datasets (QB, RB, WR) for multiple seasons
+- Standardized player identifiers to enable cross-season comparisons
 - Built a unified player lookup table to support relational modeling
 - Created custom DAX measures for PPR fantasy scoring
-- Aggregated player performance metrics from the 2024 season
-- Generated fantasy point projections using historical usage and efficiency data
-- Imported partial 2025 season data and calculated actual fantasy outcomes
+- Engineered usage and efficiency metrics (targets, rush attempts, fantasy points per opportunity)
+- Aggregated player performance metrics for 2024 and 2025
+- Compared year-over-year changes in usage and fantasy production to identify performance trends
 
 ## Dashboard Highlights
-- Fantasy point leaderboards by position and team
+- Fantasy point leaderboards by position and team across seasons
 - Interactive filters for position, team, and season
-- Usage-based metrics (targets, rush attempts, expected completion rate, etc.)
-- Projected vs actual fantasy point comparisons (2024 → 2025)
-- Identification of players who exceeded or underperformed expectations
-- High-level KPIs summarizing total fantasy production and prediction accuracy
+- Usage and efficiency-based metrics (targets, rush attempts, fantasy points per opportunity)
+- Year over year fantasy point comparisons (2024 vs 2025)
+- Identification of consistent performers, breakout candidates, and regression risks
+- High-level KPIs summarizing league-wide fantasy production trends
 
 ## Future Improvements
 - Incorporate weekly-level data to improve projection granularity
 - Add matchup and opponent strength features
 - Expand modeling to include tight ends and defensive players
-- Explore regression-based or machine learning fantasy projections
-= Automate data refreshes for ongoing season updates
+- Explore regression-based or probabilistic approaches for 2026 projections
+- Automate data refreshes for ongoing season updates
 - Compared projected vs actual performance to measure prediction error
 - Modeled relationships using a star schema to enable dynamic filtering
