@@ -1,7 +1,7 @@
 ## Overview
 This project analyzes NFL fantasy football performance data across the 2024 and 2025 regular seasons to identify year-over-year trends in player usage, efficiency, and production. Using multi-season fantasy and opportunity metrics, I built an interactive Power BI dashboard to compare player performance across seasons. Rather than producing predictions, the project emphasizes descriptive trend analysis grounded in historical performance.
 
-## Final Project (Main Page)
+## Final Project (Main Page - 2024 Season)
 <img width="1465" height="822" alt="image" src="https://github.com/user-attachments/assets/668a0fdb-80a9-42a7-9c5e-7bb83b45cfd0" />
 
 ## Objectives
